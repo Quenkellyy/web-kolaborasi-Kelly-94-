@@ -1,0 +1,104 @@
+body{
+    background-image: url(1351253.png);
+    background-size: auto;
+    
+}
+
+body{
+    background-image: url("Screenshot\ 2024-11-28\ 174720.png");
+    background-size: 5;
+}
+
+head{
+    img{
+        border-radius:12px ;
+    }
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden; 
+    background-color: pink;
+    font-family:fantasy;
+    border-radius: 20px;
+    height: 60px;
+    width: 1250px;
+}
+
+ul img{
+    margin-right: 15px; /* Memberikan sedikit jarak antara logo dan item navigasi */
+    width: 50px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display:inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color:                                                       rgb(255, 253, 114); 
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:rgb(103, 185, 248);
+    min-width: 160px;
+    box-shadow: 20px 8px 16px rgb(240, 80, 160); 
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a{
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color:cornflowerblue(77, 61, 37);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.konten {
+    display: none;
+}
+
+/* Tampilkan konten yang ditargetkan */
+.konten:target {
+    display: block;
+}
+
+.konten{
+    font-family:cursive;
+    text-align: justify;
+    color: #000000;
+    background-color:rgb(241, 171, 80);
+    border-radius:10px;
+}
+
+img{
+    height: auto;
+    width: auto;
+    border: 5 px pink (70, 156, 70);
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+}
